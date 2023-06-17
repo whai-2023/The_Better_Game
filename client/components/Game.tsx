@@ -10,8 +10,14 @@ function Game() {
 
 
   return (
-    <div>
-      <h2>This is the Game</h2>
+    <div className='gameDisplay'>
+      <div className='topDisplay'>
+        <DayAndLocationBox />
+        <StatusBox />
+      </div>
+      <div className='bottomDisplay'>
+        <DialogueBox />
+      </div>
     </div>
     
   )

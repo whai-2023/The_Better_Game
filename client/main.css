@@ -1,14 +1,45 @@
 body {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-content: center;
+  align-content: center; */
   font-family: 'Press Start 2P', 'Consolas', 'Courier New', 'Poppins', sans-serif;
   background-color: black;
   color: #78C475;
+  /* top: 0;
+  left: 0; */
+  /* height: 100vh; */
 }
 
-.landing {
+.title {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: larger;
+  text-align: center;
+  margin: 0;
+  height: 100vh;
+}
+
+.gameDisplay {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.topDisplay {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.bottomDisplay {
+  display: flex;
+  margin: 20px;
+}
+
+.GameBox {
+  border: 5px solid white;
+  border-radius: 10px;
 }

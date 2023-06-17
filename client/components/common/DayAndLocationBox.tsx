@@ -5,8 +5,8 @@ import { useEffect, useState } from 'react'
 export default function DayAndLocationBox() {
   return (
     <>
-      <div className="DayAndLocationBox"> 
-        
+      <div className="DayAndLocationBox GameBox"> 
+        <h4>This is the day and location box</h4>
       </div>
     </>
   )
