@@ -1,5 +1,12 @@
 body {
-  background-color: #faf8f1;
-  color: #0a1520;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Press Start 2P';
+  background-color: black;
+  color: #78C475;
+  font-family: 'Consolas', 'Courier New', 'Poppins', sans-serif;
+}
+
+.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
