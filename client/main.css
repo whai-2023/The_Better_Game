@@ -1,8 +1,7 @@
 body {
-  font-family: 'Press Start 2P';
+  font-family: 'Press Start 2P', 'Consolas', 'Courier New', 'Poppins', sans-serif;
   background-color: black;
   color: #78C475;
-  font-family: 'Consolas', 'Courier New', 'Poppins', sans-serif;
 }
 
 .landing {

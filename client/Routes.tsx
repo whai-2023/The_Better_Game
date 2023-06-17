@@ -17,3 +17,5 @@ import {
       </>
     )
   )
+
+  export default Router
