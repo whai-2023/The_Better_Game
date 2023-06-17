@@ -8,7 +8,7 @@ export default function Landing() {
       <div className="landing"> 
         <div className="enter">
         <h1>HOUR : FATE</h1>
-          <Link to="/IntroText">
+          <Link to="/intro-text">
             <h3>START</h3>
           </Link>
         </div>

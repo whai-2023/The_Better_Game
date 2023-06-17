@@ -4,7 +4,7 @@ import {
     Route,
   } from 'react-router-dom'
   
-  import App from './components/App'
+  import Game from './components/Game'
   import Landing from './components/Landing'
   import IntroText from './components/IntroText'
   
@@ -12,8 +12,8 @@ import {
     createRoutesFromElements(
       <>
         <Route path="/" element={<Landing />} />
-        <Route path="IntroText" element={<IntroText />} />
-        <Route path="App" element={<App />} />
+        <Route path="intro-text" element={<IntroText />} />
+        <Route path="game" element={<Game />} />
       </>
     )
   )

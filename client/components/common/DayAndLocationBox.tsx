@@ -5,13 +5,8 @@ import { useEffect, useState } from 'react'
 export default function DayAndLocationBox() {
   return (
     <>
-      <div className="landing"> 
-        <div className="enter">
-        <h1>HOUR : FATE</h1>
-          <Link to="/IntroText">
-            <h3>START</h3>
-          </Link>
-        </div>
+      <div className="DayAndLocationBox"> 
+        
       </div>
     </>
   )

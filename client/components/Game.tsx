@@ -5,14 +5,16 @@ import { useEffect, useState } from 'react'
 import DayAndLocationBox from './common/DayAndLocationBox'
 import DialogueBox from './common/DialogueBox'
 import StatusBox from './common/StatusBox'
-import { RouterProvider } from 'react-router-dom'
 
-function App() {
+function Game() {
 
 
   return (
-    <RouterProvider router={Router} />
+    <div>
+      <h2>This is the Game</h2>
+    </div>
+    
   )
 }
 
-export default App
+export default Game
