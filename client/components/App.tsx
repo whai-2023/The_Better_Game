@@ -6,18 +6,20 @@ import DayAndLocationBox from './common/DayAndLocationBox'
 import DialogueBox from './common/DialogueBox'
 import StatusBox from './common/StatusBox'
 import { RouterProvider } from 'react-router-dom'
-import title_music from '../public/audio/title_music.mp3'
+// import title_music from '/audio/title_music.mp3?url'
+import ReactAudioPlayer from 'react-audio-player'
 
 function App() {
-
-const titleMusic = function playTitleMusic() {
-    new Audio(title_music).play()
-  }
 
   return (
     <>
       <RouterProvider router={Router} />
-      <>{titleMusic}</>
+      <ReactAudioPlayer
+          src={'/audio/title_music.mp3'}
+          // autoPlay
+          //TODO: Make the volume quieter than currently is, also hide controls
+          controls
+      />
     </>
   )
 }

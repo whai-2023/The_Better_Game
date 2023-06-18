@@ -6,7 +6,9 @@ export default function StatusBox() {
   return (
     <>
       <div className="StatusBox GameBox"> 
-        <h4>This is the status box</h4>
+        <h4>Nourishment: {}:100</h4>
+        <h4>Tiredness: {}:100</h4>
+        <h4>Psyche: {}:100</h4>
       </div>
     </>
   )

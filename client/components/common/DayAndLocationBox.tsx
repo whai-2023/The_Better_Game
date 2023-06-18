@@ -6,7 +6,7 @@ export default function DayAndLocationBox() {
   return (
     <>
       <div className="DayAndLocationBox GameBox"> 
-        <h4>This is the day and location box</h4>
+        <h4>Day: {}, Location: {}</h4>
       </div>
     </>
   )
